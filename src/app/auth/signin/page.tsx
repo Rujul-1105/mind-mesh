@@ -45,7 +45,7 @@ export default function SignInPage() {
           />
           <button
             type="submit"
-            className="w-full bg-green-600 rounded-2xl p-4 hover:cursor-pointer"
+            className="w-full bg-[#800fbc] rounded-2xl p-4 hover:cursor-pointer"
           >
             Login
           </button>
@@ -55,7 +55,7 @@ export default function SignInPage() {
           onClick={() => router.push("/auth/signup")}
         >
           Don't have an account?{" "}
-          <p className="text-orange-500 hover:cursor-pointer hover:underline inline">
+          <p className="text-[#800fbc] hover:cursor-pointer hover:underline inline">
             Sign Up
           </p>
         </p>
